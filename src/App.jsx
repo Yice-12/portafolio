@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./const/themes";
-import { GlobalStyle } from "./styles/globalStyle";
+import { GlobalStyle } from "./styles/GlobalStyle";
 import { Navbar } from "./components/Navbar";
 import { Start } from "./components/Start";
 import { AboutMe } from "./components/AboutMe";
