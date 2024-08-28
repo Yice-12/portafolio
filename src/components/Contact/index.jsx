@@ -29,7 +29,7 @@ export const Contact = () => {
         <StyledCard>
           <Form layout="vertical" onFinish={onFinish} form={form}>
             <Row gutter={16}>
-              <Col md={12} xs={12}>
+              <Col md={12} xs={24}>
                 <StyledFormItem
                   label="Nombre y apellido"
                   name="user_name"
@@ -44,7 +44,7 @@ export const Contact = () => {
                 </StyledFormItem>
               </Col>
 
-              <Col md={12} xs={12}>
+              <Col md={12} xs={24}>
                 <StyledFormItem
                   label="Correo"
                   name="user_email"
