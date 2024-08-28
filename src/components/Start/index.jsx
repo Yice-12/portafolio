@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import vector from "./../../assets/vector.png";
+import vector from "../../assets/vector.png";
 
 export const Start = () => {
   return (
